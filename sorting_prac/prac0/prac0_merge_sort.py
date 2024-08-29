@@ -17,8 +17,8 @@ def merge_sort(in_list: List[int]):
         mid = len(in_list) // 2
 
         # split the list into 2 halves
-        right_list = in_list[mid:]
-        left_list = in_list[:mid]
+        right_list = in_list[mid:] #2|(3,|4)
+        left_list = in_list[:mid] #0|1
 
         # call merge_sort on both of them
         merge_sort(left_list)
