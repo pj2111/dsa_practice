@@ -3,6 +3,9 @@ from heapq import (
     heapify,
     heappop,
     heappush,
+    nlargest,
+    nsmallest,
+    merge,  # multiple sorted inputs one one sorted output
 )
 from random import randrange
 
@@ -54,3 +57,8 @@ print(neg_heap)
 # popping from the heap will return 100
 
 print(f"the top element is: {-1 * heappop(neg_heap)}")
+
+print(f"the 1st largest, {nlargest(1, heap_list)}")
+print(f"the 1st largest, {nsmallest(1, heap_list)}")
+# merge returns a generator
+print(f"Merge in workin: {list(merge(neglist, heap_list))}")
