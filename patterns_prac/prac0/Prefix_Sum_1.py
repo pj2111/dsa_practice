@@ -16,7 +16,7 @@ def prefix_sum(nums, i, j):
     P[0] = nums[0]  # first element will be its own sum
     for k in range(1, len(nums)):
         # traverse rest from idx 1 to end of nums
-        P[k] = P[k - 1] + nums[k]
+        P[k] = P[k - 1] + nums[k]–
         # sum in curr k idx = value in prev k idx + val present at k idx of nums
     return P[j] - P[i - 1]
     # return the sum between two indices, i and j

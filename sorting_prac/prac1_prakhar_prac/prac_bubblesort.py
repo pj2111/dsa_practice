@@ -8,5 +8,6 @@ from typing import List
 def bubble_sort(in_list: List[int]):
 
 
+
 in_array = [1, 8, 7, 9, 0, 12, 15, 78, 68, 36]
 print(bubble_sort(in_array))
