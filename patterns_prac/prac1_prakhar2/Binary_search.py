@@ -14,6 +14,26 @@
 
 def binary_search(nums, target):
     pass
+    # start by creating 2 pointers
+    # 0, 8
+    # while the right doesn't cross the left
+        # get the mid value of the range
+
+        # // will give me floor quotient
+        # 0 + (8 - 0) // 2 = 4
+        # 5 + (8 - 5) // 2 = 4
+
+        # intuition:
+
+        # Check if target is present at mid
+
+        # If target is greater, ignore the left half
+            # move the left to mid + 1
+
+        # If target is smaller, ignore the right half
+            # move the right to mid -1
+
+    # Target is not present in the array
 
 
 # Example Input:

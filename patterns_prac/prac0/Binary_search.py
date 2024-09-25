@@ -19,9 +19,6 @@ def binary_search(nums, target):
         # // will give me floor quotient
         # 0 + (8 - 0) // 2 = 4
         # 5 + (8 - 5) // 2 = 4
-
-        # intuition:
-
         # Check if target is present at mid
         if nums[mid] == target:
             return mid
